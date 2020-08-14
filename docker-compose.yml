@@ -2,7 +2,7 @@ version: '3.7'
 services:
   ebcli:
     build: .
-    image: verzola/eb-cli
+    image: justdigitalbr/eb-cli
     volumes:
       - .:/app
     command: eb --version
